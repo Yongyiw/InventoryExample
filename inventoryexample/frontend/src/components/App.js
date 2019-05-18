@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import ReactDOM from "react-dom";
 
 import Header from "./layout/Header";
+import MenuAppBar from "./layout/MenuAppBar";
 import Dashboard from "./inventory/Dashboard";
 
 import { Provider as AlertProvider } from "react-alert";
@@ -23,7 +24,7 @@ class App extends Component {
       <Provider store={store}>
         <AlertProvider template={AlertTemplate} {...alertOptions}>
           <Fragment>
-            <Header />
+            <MenuAppBar title="Inventory" />
             <Alerts />
             <div className="container">
               <Dashboard />

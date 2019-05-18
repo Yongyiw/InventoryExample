@@ -1,4 +1,4 @@
-from .models import Item
+from inventoryexample.inventory.models import Item
 from rest_framework import viewsets, permissions
 from .serializers import ItemSerializer
 
