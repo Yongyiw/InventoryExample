@@ -1,1 +1,1 @@
-web: gunicorn InventoryExample.wsgi
+web: gunicorn inventoryexample.wsgi
