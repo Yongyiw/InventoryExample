@@ -31,8 +31,8 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'django.contrib.admin', 'django.contrib.auth',
     'django.contrib.contenttypes', 'django.contrib.sessions',
-    'django.contrib.messages', 'django.contrib.staticfiles', 'inventory',
-    'rest_framework', 'frontend'
+    'django.contrib.messages', 'django.contrib.staticfiles',
+    'inventoryexample.inventory', 'rest_framework', 'inventoryexample.frontend'
 ]
 
 MIDDLEWARE = [
@@ -72,7 +72,7 @@ WSGI_APPLICATION = 'gettingstarted.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'inventoryexample', 'db.sqlite3'),
     }
 }
 
@@ -114,7 +114,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, './frontend/static')
+STATIC_ROOT = os.path.join(BASE_DIR, '../inventoryexample/frontend/static')
 STATIC_URL = '/frontend/'
 
 # Extra places for collectstatic to find static files.
