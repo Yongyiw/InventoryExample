@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/Users/yongyiwu/.local/share/virtualenvs/inventoryexample-oY9CDNYa/bin/python"
+    "python.pythonPath": "/Users/yongyiwu/.local/share/virtualenvs/inventoryexample-oY9CDNYa/bin/python",
+    "python.formatting.provider": "yapf"
 }
