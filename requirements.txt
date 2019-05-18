@@ -1,4 +1,6 @@
 django
+djangorestframework = "*"
+django-rest-knox = "*"
 gunicorn
 django-heroku
 whitenoise
