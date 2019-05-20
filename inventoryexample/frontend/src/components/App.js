@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from "react";
 import ReactDOM from "react-dom";
 
-import Header from "./layout/Header";
 import MenuAppBar from "./layout/MenuAppBar";
 import Dashboard from "./inventory/Dashboard";
 

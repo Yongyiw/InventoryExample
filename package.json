@@ -37,6 +37,7 @@
     "react-alert": "^5.5.0",
     "react-alert-template-basic": "^1.0.0",
     "react-dom": "^16.8.6",
+    "react-material-ui-form-validator": "^2.0.8",
     "react-redux": "^7.0.3",
     "react-transition-group": "^4.0.1",
     "redux": "^4.0.1",

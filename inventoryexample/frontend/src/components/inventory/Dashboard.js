@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
-import Form from "./Form";
-import Items from "./Items";
+import AddFormModal from "./AddFormModal";
+import ItemEnhancedTable from "./ItemEnhancedTable";
 
 export default function Dashboard() {
   return (
     <Fragment>
-      <Form />
-      <Items />
+      <AddFormModal />
+      <ItemEnhancedTable />
     </Fragment>
   );
 }

@@ -51,7 +51,7 @@ class MenuAppBar extends React.Component {
 
     return (
       <div className={classes.root}>
-        <FormGroup>
+        {/* <FormGroup>
           <FormControlLabel
             control={
               <Switch
@@ -62,7 +62,7 @@ class MenuAppBar extends React.Component {
             }
             label={auth ? "Logout" : "Login"}
           />
-        </FormGroup>
+        </FormGroup> */}
         <AppBar position="static">
           <Toolbar>
             <IconButton
