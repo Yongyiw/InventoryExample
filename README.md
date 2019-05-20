@@ -32,7 +32,12 @@ Django - React - Material UI
   
 2) https://github.com/heroku/python-getting-started
 
-# Concerns:
-No authentication process implemented.
+# Todos:
+1) Details page.
+2) Better solution for responsive table (Grid?)
+3) Textfield validators
+4) Unit tests
+5) Modulize components and clean up code.
 
+No authentication process implemented.
 Used sqlite db for demonstration purpose only.
